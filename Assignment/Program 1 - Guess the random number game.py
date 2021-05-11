@@ -6,18 +6,28 @@
 #One player vs. the computer
 
 import random
-minGuess = 1
-maxGuess = 6
+guessMin = 1
+guessMax = 6
+# guessUser = -3521681
 
 #ask the user for their name and their guess
-name = input("What is your name?")
+name = input("What is your name? ")
 print ("Hi " + name)
-print("Enter a number between: ", minGuess, " and ", maxGuess)
-guess = int(input("What is your guess? "))
+print("Please enter a number between: ", guessMin, " and ", guessMax)
+
+while True:
+    guessUser = int(input("What is your guess? "))
+    if (int(guessUser)<guessMin or int(guessUser)>guessMax):
+        print ("Invalid input. Try again.")
+    else:
+        break
+
+
+
 
 # generate a random number and tell the user if they won or lost
-secretNumber = random.randint(minGuess, maxGuess)
-if (guess != secretNumber):
+secretNumber = random.randint(guessMin,guessMax)
+if (guessUser != secretNumber):
     print("You lose - the number was",secretNumber)
 else:
     print("Congratulations, you got it right!")

@@ -1,4 +1,4 @@
-age = int(input("please enter your age"))
+age = int(input("please enter your age: "))
 
 if (age < 0):
     print("Hmm, you haven't been born yet!")

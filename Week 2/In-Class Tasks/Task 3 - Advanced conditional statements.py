@@ -1,4 +1,5 @@
-grade = int(input("tell me the mark:"))
+# program to tell the used what
+grade = int(input("Input the mark: "))
 if grade <50:
     print("FL")
 elif grade <65:

@@ -1,5 +1,5 @@
 """
-Display a form showing the below information - 
+Display a form showing the below information -
 
 Current date and time using the str method of datetime object:
 [str date and time]
