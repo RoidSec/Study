@@ -19,9 +19,9 @@ while True:
             break
     except:
         print ("Invalid input.")
- 
+
 #printing of instructions for the user to practice their timestables
-print (name+ " on a piece of paper, write down the", timesTable ,"times table's from 1 to 12.  When you’re ready I’ll show you the answer so you can check your work.")
+print (name+ " on a piece of paper, write down the", timesTable ,"times tables from 1 to 12.  When you’re ready I’ll show you the answer so you can check your work.")
 
 # ready check for printing results
 # while loop to break if the user input's y,
