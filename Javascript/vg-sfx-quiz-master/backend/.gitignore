@@ -1,7 +1,0 @@
-.idea/
-.vscode/
-node_modules/
-.npm
-.env
-*.log
-npm-debug.log*
