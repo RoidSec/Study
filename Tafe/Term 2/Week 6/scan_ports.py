@@ -1,32 +1,18 @@
-#!/usr/bin/python3
-# A program to scan all TCP ports of a specified
-# computer name.
-# (c) 2018 Warren Toomey, GPL3
-#
 import socket
 import sys
 
-# Set the server's name or IP that we will scan
-serverName = "localhost"
+serverName = "localhost" # Set the server or IP to scan
 
-# Loop over all possible TCP ports
-for port in range(0,65536):
 
-    # Create a TCP/IP socket
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-    # Build the name/port pair used by connect()
-    server_address = (serverName, port)
-
+for port in range(0,65536): # Loop all TCP ports
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Create a TCP/IP socket
+    server_address = (serverName, port) # Build the name/port pair used by connect()
+    
     try:
-        # Try to connect to localhost on that port.
-        sock.connect(server_address)
-
+        sock.connect(server_address) # Try to connect to localhost on that port.
     except:
-        # The connection failed, do something
-        pass
+        pass # The connection failed, do something
 
     else:
-        # The connection  was OK, close the connection
         print("Connection on port %s successful" % port)
-        sock.close()
+        sock.close() # The connection  was OK, close the connection
