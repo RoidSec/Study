@@ -1,5 +1,5 @@
 package main
-import ("fmt")
+import "fmt"
 
 func main() {
   var cars = [4]string{"Volvo", "BMW", "Ford", "Mazda"}

@@ -3,7 +3,7 @@
 multiple line comment*/
 
 package main
-import ("fmt")
+import "fmt"
 
 func main() {
   var myNum = 50 

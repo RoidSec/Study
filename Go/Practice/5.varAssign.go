@@ -1,5 +1,5 @@
 package main
-import ("fmt")
+import "fmt"
 
 func main() {
   var x, y, z = 5, 10, 15
