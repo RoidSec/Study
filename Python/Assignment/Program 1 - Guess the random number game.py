@@ -1,7 +1,3 @@
-#Author : Colin Prater
-#Date   : 29/04/2021
-#Version: 1.0
-#
 #Guess the random number game
 #One player vs. the computer
 

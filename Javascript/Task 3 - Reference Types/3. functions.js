@@ -11,5 +11,5 @@ function square(number) {
 
 console.log(square (2))
 
-greet('Colin,','we hope you enjoy your stay!');
-greet('Shaneale,','we hope you have a great day!');
+greet('John,','we hope you enjoy your stay!');
+greet('Jane,','we hope you have a great day!');

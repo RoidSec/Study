@@ -1,5 +1,3 @@
-#Author : Colin Prater
-#Date   : 18/05/2021
 #Version: 1.0
 #
 #Maths Quest

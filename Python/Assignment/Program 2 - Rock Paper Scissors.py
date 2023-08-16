@@ -1,7 +1,3 @@
-#Author : Colin Prater
-#Date   : 11/05/2021
-#Version: 1.0
-#
 #Rock paper scissors game
 #Two player
 

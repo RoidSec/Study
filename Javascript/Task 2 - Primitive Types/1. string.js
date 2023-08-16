@@ -1,5 +1,5 @@
 //String Literal
-let userName = 'Colin';
+let userName = 'John';
 let OS = 'Windows';
 let learningLanguage = 'Javascript';
 

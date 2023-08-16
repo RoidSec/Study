@@ -5,11 +5,11 @@ let person = {
 
 
 // Dot Notation
-person.name = 'Shaneale';
+person.name = 'Jane';
 person.age = 26;
 
 //Bracket Notation
-person['name'] = 'Colin';
+person['name'] = 'John';
 person['age'] = 28;
 
 console.log(person);
