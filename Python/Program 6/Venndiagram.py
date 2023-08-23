@@ -1,10 +1,10 @@
 from venny4py.venny4py import *
 
 sets = {
-    'set1': set(list("Harry")),
-    'set2': set(list("John")),
-    'set3': set(list("Timothy")),
-    'set4': set(list("Wilson"))
+    'Harry': set(list("set1")),
+    'John': set(list("set2")),
+    'Timothy': set(list("set3")),
+    'Wilson': set(list("set4pi"))
 }
 
 venny4py(sets=sets)
