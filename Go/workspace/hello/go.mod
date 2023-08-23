@@ -1,5 +1,5 @@
-module example.com/hello
+module example.com/mymodule
 
-go 1.18
+go 1.14
 
-require golang.org/x/example/hello v0.0.0-20230810185935-9fd7daa707c3 // indirect
+require golang.org/x/example/hello v0.0.0-20230810185935-9fd7daa707c3
