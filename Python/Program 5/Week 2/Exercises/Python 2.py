@@ -32,4 +32,4 @@ for c in text:
         
 print("Plain text:",text)
 
-print("Encrypted text:",encryption
+print("Encrypted text:",encryption)
